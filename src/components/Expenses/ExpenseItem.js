@@ -1,8 +1,10 @@
+import React, { useState } from "react"
 import ExpenseDate from "./ExpenseDate"
 import Card from "../UI/Card"
 import "./ExpenseItem.css"
 
 const ExpenseItem = (props) => {
+  useState()
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
